@@ -780,10 +780,10 @@
   padding: 20px;
 }*/
 
-.overList {
+/*.overList {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-}
+}*/
 
 .listadoTitulo {
   text-align: center;
@@ -791,24 +791,18 @@
 }
 .table {
   /* overflow-y: hidden; */
-  overflow-x: auto;
-  overflow: auto;
+  /*overflow-x: auto;*/
+  /*overflow: auto;*/
   flex-wrap: nowrap;
   background-color: rgb(176, 90, 139);
   height: auto;
-  margin-right: 50px;
+  /*margin-right: 50px;*/
   border-collapse: collapse;
 }
 
-.table td {
+.table td, table th {
   padding: 8px; /* Ajusta el padding según tus necesidades */
   line-height: 1.2; /* Asegura que la altura de la línea se ajuste al contenido */  vertical-align: middle; /* Centra el contenido verticalmente */
-  min-height: 40px; /* Ajusta este valor según sea necesario */
-
-}
-.table th {
-  padding: 8px; /* Ajusta el padding según tus necesidades */
-  line-height: 1.0; /* Asegura que la altura de la línea se ajuste al contenido */  vertical-align: middle; /* Centra el contenido verticalmente */
   min-height: 40px; /* Ajusta este valor según sea necesario */
 
 }
