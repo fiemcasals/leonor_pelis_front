@@ -790,25 +790,41 @@
   color: lightyellow;
 }
 .table {
-  /**overflow-y: hidden;*/
+  /* overflow-y: hidden; */
   overflow-x: auto;
   overflow: auto;
   flex-wrap: nowrap;
   background-color: rgb(176, 90, 139);
-  height: 600px;
+  height: auto;
   margin-right: 50px;
-
-  /**caption-side: bottom;*/
   border-collapse: collapse;
-  .encabezado {
-    padding: 40px;
-    font-size: 1rem;
-  }
-  .textoTabla {
-    font-size: 0.8 rem;
-    color: black;
-  }
 }
+
+.table td {
+  padding: 8px; /* Ajusta el padding según tus necesidades */
+  line-height: 1.2; /* Asegura que la altura de la línea se ajuste al contenido */  vertical-align: middle; /* Centra el contenido verticalmente */
+  min-height: 40px; /* Ajusta este valor según sea necesario */
+
+}
+.table th {
+  padding: 8px; /* Ajusta el padding según tus necesidades */
+  line-height: 1.0; /* Asegura que la altura de la línea se ajuste al contenido */  vertical-align: middle; /* Centra el contenido verticalmente */
+  min-height: 40px; /* Ajusta este valor según sea necesario */
+
+}
+
+.encabezado {
+  padding: 40px;
+  font-size: 1rem;
+}
+
+.textoTabla {
+  font-size: 0.8rem; /* Sin espacio entre el número y la unidad */
+  color: black;
+}
+
+/* caption-side: bottom; */
+
 
 .botonModificar {
   margin-left: 15px;
